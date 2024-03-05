@@ -1,0 +1,70 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gothic+A1&family=Orbit&family=Roboto&display=swap');
+
+
+
+html,
+body {
+  margin: 0;
+  background: url('sth.png') center/cover no-repeat fixed;
+  .background-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+
+  width: 100%;
+  font-family: "Gothic A1", sans-serif;
+  overflow-x: hidden;
+}
+
+
+.cover {
+  width: 100vw;
+  margin-bottom: 10rem;
+  display: flex;
+}
+
+.cover:nth-child(1) {
+  margin-top:0vh ;
+  margin-bottom:85vh ;
+  transform: rotate(0deg);
+  
+  color:  #ae8380;
+  ;
+
+}
+
+.cover:nth-child(2) {
+  
+  transform: rotate(0deg);
+  
+  justify-content: flex-end;
+  color: #a5ab6a;
+}
+
+.cover:nth-child(3) {
+  margin-top:0vh ;
+  margin-bottom:10vh ;
+  transform: rotate(0deg);
+
+  color:  #b59782;
+  ;
+
+}
+
+
+
+
+p {
+  display: flex;
+  padding: 0.2rem ;
+  font-size: 1rem;
+  letter-spacing: 0.001rem;
+ 
+}
